@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: #e8e8e8;
+}
+main{
+    height: 1130px;
+}
+#topnav{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar_a{
+    background-color: #0f1111;
+    width: 214.69px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navbar_b{
+    background-color: #0f1111;
+    width: 656.69px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar_c{
+    background-color: #0f1111;
+    width: 391.96px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo{
+    height: 50px;
+    width: 113px;
+    background-image: url(images/logo2.png);
+    background-size: contain;
+}
+#location{
+    width: 80px;
+    
+}
+
+#deliverto{
+    color: #cccccc;
+    align-self: flex-end;
+    font-size: 12px;
+    margin-left: 11px;
+}
+#india{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+#selectbox{
+    height: 45px;
+    width: 38.667px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#inputbox{
+    width: 551.52px;
+    height: 42px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    border-radius: 0%;
+}
+
+#inputarea{
+    width: 551.52px;
+    height: 42px;
+}
+
+#magnifying_glass{
+    height: 45px;
+    width: 40px;
+    background-color: rgb(176, 140, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+} 
+
+#sb1{
+    height: 45px;
+    width: 38.667px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.w12{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.w14{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+#c_second{
+    display: flex;
+    flex-direction: row;
+}
+#cart{
+    display: flex;
+    flex-direction: row;
+}
+#cart i{
+    color: #ffffff;
+}
+
+#subtopnav{
+    width: 1232px;
+    height: 39px;
+    display: flex;
+    
+}
+#subtopnav1{
+    width: 11px;
+    height: 39px;
+    background-color: #232f3e;
+}
+#subtopnav2{
+    width: 58.42px;
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+#subtopnav2 p{
+    font-size: 15px;
+    font-weight: 600;
+}
+#subtopnav3{
+    width: 424px;
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#subtopnav4{
+    width: 711.92px;
+    height: 39px;
+    background-color: #232f3e;
+}
+#subtopnav5{
+    width: 11px;
+    height: 39px;
+    background-color: #232f3e;
+}
+
+.stn3_a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+
+#hero_img{
+    height: 486.40px;
+    width: 1216px;
+    background-image: url(images/41F4syCw54L._SX1500_.jpg);
+    background-size: cover;
+
+}
+
+#maintext{
+    width: 1186px;
+    height: 40px;
+    background-color: #fff;
+    color:black;
+    font-size: 14px;
+    font-weight: 548;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 280px;
+    left: 16px;
+    z-index: 5;
+}
+#maintext a{
+    text-decoration: none;
+}
+
+/* shop-section */
+
+#mainbox1{
+    width: 1216px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#mainbox2{
+    width: 1216px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#mainbox3{
+    background-color: #fff;
+    width: 1186px;
+}
+#subbox3{
+    width: 1186px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    width: 285px;
+    height: 280px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box h2{
+    margin-left: 16px;
+    margin-top: 25px;
+}
+.shop_anc{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 550;
+    color: rgb(16, 153, 187);
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+
+#pic1{
+    height: 177.75px;
+    background-image: url(images/Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg);
+    background-size: cover;
+}
+#pic2{
+    height: 177.75px;
+    background-image: url(images/Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg);
+    background-size: cover;
+}
+#pic3{
+    height: 177.75px;
+    background-image: url(images/Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg);
+    background-size: cover;
+}
+#pic4{
+    height: 177.75px;
+    background-image: url(images/Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg);
+    background-size: cover;
+}
+#pic5{
+    height: 177.75px;
+    background-image: url(images/DesktopQuadCat_372x232_LP-HP_B08MYX5Q2W_01.23._SY232_CB619238939_.jpg);
+    background-size: cover;
+}
+#pic6{
+    height: 177.75px;
+    background-image: url(images/DesktopQuadCat_372x232_kitchen_B0126LMDFK_01.23._SY232_CB619238939_.jpg);
+    background-size: cover;
+}
+#pic7{
+    height: 177.75px;
+    background-image: url(images/DesktopQuadCat_372x232_home_B08RCCP3HV_01.23._SY232_CB619238939_.jpg);
+    background-size: cover;
+}
+#pic8{
+    height: 177.75px;
+    background-image: url(images/DesktopQuadCat_372x232_health-beauty_B07662GN57_01.23._SY232_CB619238939_.jpg);
+    background-size: cover;
+}
+
+#MAIN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 260px;
+}
+
+#box9{
+    width: 228px;
+    height: 200px;
+    background-image: url(images/81Y26toqdTL._AC_SY400_.jpg);
+    background-size: cover;
+}
+#box10{
+    width: 187px;
+    height: 200px;
+    background-image: url(images/71S4-NjoTDL._AC_SY400_.jpg);
+    background-size: cover;
+}
+#box11{
+    width: 270px;
+    height: 154.06px;
+    background-image: url(images/71-P2+J2RQL._AC_SY400_.jpg);
+    background-size: cover;
+}
+#box12{
+    width: 67.05px;
+    height: 200px;
+    background-image: url(images/51SxIyLWwUL._AC_SY400_.jpg);
+    background-size: cover;
+}
+#box13{
+    width: 270px;
+    height: 103.54px;
+    background-image: url(images/91yuQpw++mL._AC_SY400_2.jpg);
+    background-size: cover;
+}
+
+/* footer */
+
+#foot_1{
+    height: 50px;
+    width: 1216px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #ffffff;
+}
+#foot_1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#foot_2a{
+    display: flex;
+    flex-direction: column;
+}
+#foot_2b{
+    display: flex;
+    flex-direction: column;
+}
+#foot_2c{
+    display: flex;
+    flex-direction: column;
+}
+#foot_2d{
+    display: flex;
+    flex-direction: column;
+}
+
+#foot_2{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #232f3e;
+    padding-top: 50px;
+}
+
+#foot_2 div p{
+    color: #ffffff;
+    font-weight: 700;
+}
+#foot_2 div a{
+    color: #dddddd;
+    text-decoration: none;
+    margin-top: 8px;
+    font-size: small;
+    font-weight: 500;
+}
+
+#foot_3{
+    height: 90px;
+    background-color: #232f3e;
+    border-top: .5px solid rgb(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ama_logo{
+    height: 34px;
+    width: 90px;
+    background-image: url(images/logo2.png);
+    background-size: cover;
+}
+#foot_4{
+    height: 60px;
+    background-color: #131a22;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#foot_4 p{
+    color: #fff;
+    font-size: 12px;
+}
+#foot_4 div a{
+    text-decoration: none;
+    color: #fff;
+    margin: 8px;
+    font-size: 12px;
+}
+
+/* hovering conditions */
+
+
+#foot_4 div a:hover{
+   text-decoration: underline;
+}
+#foot_2a a:hover{
+    text-decoration: underline;
+}
+#foot_2b a:hover{
+    text-decoration: underline;
+}
+#foot_2c a:hover{
+    text-decoration: underline;
+}
+#foot_2d a:hover{
+    text-decoration: underline;
+}
+
+#mainbox1 div a:hover{
+    color: rgb(212, 75, 75);
+}
+#mainbox2 div a:hover{
+    color: rgb(212, 75, 75);
+}
+#maintext p a:hover{
+    color: rgb(212, 75, 75);
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
